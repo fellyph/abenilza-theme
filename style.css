@@ -1,0 +1,21 @@
+/*
+Theme Name: Abenilza theme
+Theme URI: http://fellyph.com.br
+Description: Tema desenvolvido para abenilza cabeleireiros
+Version: 5.0
+Tags: WordPress, AngularJS, JavaScript, RESTful, API, Angular, Client Side Application, Single Page Application
+Author: Fellyph Cintra
+Author URI: http://www.fellyph.com.br
+
+*/
+
+/* HTML 5*/
+header, article, footer, section, nav{
+	display:block;
+}
+.clear{
+	clear:both;
+}
+
+
+/******** ALL FURTHER STYLING SHOULD BE DONE IN THE more-style.less/css FILES *******/
