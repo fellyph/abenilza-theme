@@ -1,9 +1,28 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Abenilza Cabeleireiros</title><meta property="og:title" content="Abenilza Cabeleireiros"><meta property="og:description" content="Com formação nas melhores academias de cortes, coloração e maquilagem, em nível Nacional e internacional. Abenilza Cabeleireiros busca e valoriza as novas tendêcias em matéria de beleza."><meta property="og:url" content="http://www.abenilza.com.br/"><meta property="og:image" content="http://www.abenilza.com.br/thumb.gif"><link rel="profile" href="http://gmpg.org/xfn/11"><link href="https://fonts.googleapis.com/css?family=Montserrat|Slabo+27px" rel="stylesheet"><link rel="stylesheet" type="text/css" media="all" href="assets/stylesheets/style.css"><script type="text/javascript">var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-5272735-3']);
-      _gaq.push(['_trackPageview']);
+<?php get_header(); ?>
+    <div id="main">
+        <img src="assets/images/topo-abenilza.jpg" title="Abenilza Cabeleireiros" alt="Casal moderno" class="imagem-topo"/>
+        <div id="container">
+          <div id="content" role="main">
+              <article id="sobre" class="secao">
+                  <h2>Sobre</h2>
+                  <p>Possui ampla experiência e  formação nas melhores academias de cortes, coloração e maquilagem, em nível Nacional e internacional. Busca e valoriza as novas tendêcias em matéria de beleza, dentro e fora do país.</p>
+                  <p>Além de oferecer o melhor serviço e atendimento da região, Abenilza Cabeleireiros está situado no centro de Caruaru e oferece um amplo e confortável espaço, com estrutura ideal para a sua produção em datas festivas, noivados e formatura.   O melhor de tudo: descontos especiais para grupos!</p>
+              </article>
 
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();</script></head><body><section id="wrapper" class="hfeed"><header id="topo"><h1 id="logo">Abenilza Cabeleireiros</h1><nav id="box-menu"><ul class="menu"><li><a href="#sobre">Sobre</a></li><li><a href="#servico">Serviços</a></li><li><a href="#local">Contato</a></li></ul></nav></header><!-- #header --><div id="main"><img src="assets/images/topo-abenilza.jpg" title="Abenilza Cabeleireiros" alt="Casal moderno" class="imagem-topo"><div id="container"><div id="content" role="main"><article id="sobre" class="secao"><h2>Sobre</h2><p>Possui ampla experiência e formação nas melhores academias de cortes, coloração e maquilagem, em nível Nacional e internacional. Busca e valoriza as novas tendêcias em matéria de beleza, dentro e fora do país.</p><p>Além de oferecer o melhor serviço e atendimento da região, Abenilza Cabeleireiros está situado no centro de Caruaru e oferece um amplo e confortável espaço, com estrutura ideal para a sua produção em datas festivas, noivados e formatura. O melhor de tudo: descontos especiais para grupos!</p></article><article id="servico" class="secao"><h2>Serviços</h2><p>Com um vasto leque em serviços, que vão de escova á maquilagem definitiva, oferecemos facilidades na hora do pagamento (parcelamento via cartão de crédito).</p><strong>Além de todos os serviços oferecidos em salão de beleza, Abenilza possui experiência em:</strong><ul class="list-servicos"><li>Prótese capilar</li><li>Design de Sobrancelhas</li><li>Maquilagem definitiva</li><li>Micropiguimentação para olhos delineados, boca expressiva e sobrancelhas bem definidas.</li><li>Megahair</li><li>Dia da noiva</li><li>Tratamento para calvice</li><li>Prótese capilar de alta tecnologia com micropelie cilicone</li></ul></article><article id="local" class="secao"><h2>Contato</h2><div id="endereco">Rua São Roque, 138 , Centro<br>Caruaru - PE<br><strong>(81) 3721 - 7641</strong></div><div id="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1974.1022071717482!2d-35.975790615621946!3d-8.282444037579566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf116a65c2fa26fdf!2sAbenilza+Design+hair!5e0!3m2!1spt-BR!2sbr!4v1478867964272" width="960" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div></article></div><!-- #content --></div><!-- #container --></div><!-- #main --><div id="footer" role="contentinfo">Todos direitos reservados para Abenilza Cabeleireiros</div><!-- #footer --></section><!-- #wrapper --></body></html>
+              <article id="servico" class="secao">
+                <h2>Serviços</h2>
+                <p>Com um vasto leque em serviços, que vão de escova á maquilagem definitiva, oferecemos facilidades na hora do pagamento (parcelamento via cartão de crédito).</p>
+
+                <strong>Além de todos os serviços oferecidos em salão de beleza, Abenilza possui experiência em:</strong>
+                <ul class="list-servicos">
+                    <li>Prótese capilar</li>
+                    <li>Design de Sobrancelhas</li>
+                    <li>Maquilagem definitiva</li>
+                    <li>Micropiguimentação para olhos delineados, boca expressiva e sobrancelhas bem definidas.</li>
+                    <li>Megahair</li>
+                    <li>Dia da noiva</li>
+                    <li>Tratamento para calvice</li>
+                    <li>Prótese capilar de alta tecnologia com micropelie Silicone</li>
+                </ul>
+              </article>
+<?php get_footer(); ?>
