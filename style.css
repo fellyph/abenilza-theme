@@ -9,13 +9,224 @@ Author URI: http://www.fellyph.com.br
 
 */
 
+
 /* HTML 5*/
-header, article, footer, section, nav{
-	display:block;
+
+header,
+article,
+footer,
+section,
+nav {
+	display: block;
 }
-.clear{
-	clear:both;
+
+.clear {
+	clear: both;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a img {
+	border: none;
 }
 
 
-/******** ALL FURTHER STYLING SHOULD BE DONE IN THE more-style.less/css FILES *******/
+/* =General
+-------------------------------------------------------------- */
+
+body {
+	font-family: 'Slabo 27px', serif;
+	color: #333;
+	font-size: 18pt;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+#wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+/* =Header
+-------------------------------------------------------------- */
+
+.logo {
+	background: url(assets/images/logo-abenilza.svg) no-repeat;
+	text-indent: -9000px;
+	display: block;
+	height: 230px;
+	overflow: hidden;
+	margin: 40px 0 0;
+}
+
+.imagem-topo {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/* =Menu
+-------------------------------------------------------------- */
+
+.box-menu {
+	padding: 5px 0 20px;
+	text-align: center;
+	margin: 0 auto;
+	border-top: 2px solid #333;
+}
+
+.box-menu li {
+	font-family: 'Montserrat', sans-serif;
+	list-style: none;
+	margin: 5px 20px 5px 10px;
+	padding: 0 1em 0.5em;
+	font-size: 1.1em;
+	display: inline-block;
+}
+
+.box-menu li a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+/* =Content
+-------------------------------------------------------------- */
+
+.content {
+	margin-bottom: 36px;
+}
+
+.salao {
+	float: left;
+	margin: 0 20px 20px 0;
+	width: auto;
+}
+
+.secao {
+	margin-top: 2.5em;
+}
+
+.secao ul {
+	list-style: square;
+	margin: 20px 10px;
+}
+
+.secao li {
+	margin-bottom: 5px;
+}
+
+.secao > h2 {
+	margin: 20px 0;
+	padding-bottom: 10px;
+}
+
+.secao > p {
+	margin-bottom: 18px;
+}
+
+.mapa {
+	margin: 15px 0;
+}
+
+.endereco {
+	line-height: 20px;
+}
+
+.contato textarea,
+.contato input {
+	border: 1px solid #333;
+	width: 356px;
+	padding: 3px;
+}
+
+.contato p {
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+
+/* Fellyph ---------- */

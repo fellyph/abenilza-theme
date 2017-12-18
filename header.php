@@ -21,10 +21,9 @@
     </head>
     <body>
     <section id="wrapper" class="hfeed">
-
-        <header id="topo">
-          <h1 id="logo">Abenilza Cabeleireiros</h1>
-          <nav id="box-menu">
+        <header class="topo">
+          <h1 class="logo">Abenilza Cabeleireiros</h1>
+          <nav class="box-menu">
               <ul class="menu">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#servico">Serviços</a></li>

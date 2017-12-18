@@ -1,15 +1,14 @@
 <?php get_header(); ?>
     <div id="main">
-        <img src="assets/images/topo-abenilza.jpg" title="Abenilza Cabeleireiros" alt="Casal moderno" class="imagem-topo"/>
-        <div id="container">
-          <div id="content" role="main">
-              <article id="sobre" class="secao">
+        <div class="container">
+          <div class="content" role="main">
+              <article class="sobre secao">
                   <h2>Sobre</h2>
                   <p>Possui ampla experiência e  formação nas melhores academias de cortes, coloração e maquilagem, em nível Nacional e internacional. Busca e valoriza as novas tendêcias em matéria de beleza, dentro e fora do país.</p>
                   <p>Além de oferecer o melhor serviço e atendimento da região, Abenilza Cabeleireiros está situado no centro de Caruaru e oferece um amplo e confortável espaço, com estrutura ideal para a sua produção em datas festivas, noivados e formatura.   O melhor de tudo: descontos especiais para grupos!</p>
               </article>
 
-              <article id="servico" class="secao">
+              <article class="servico secao">
                 <h2>Serviços</h2>
                 <p>Com um vasto leque em serviços, que vão de escova á maquilagem definitiva, oferecemos facilidades na hora do pagamento (parcelamento via cartão de crédito).</p>
 
