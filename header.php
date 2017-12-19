@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?> ng-app="wpAngularTheme">
   <head>
     <meta charset="UTF-8">
     <title>Abenilza Cabeleireiros</title>
-    <meta property="og:title" content="Abenilza Cabeleireiros">
+    <meta property="og:title" content="<?php bloginfo('name'); ?>">
     <meta property="og:description" content="Com formação nas melhores academias de cortes, coloração e maquilagem, em nível Nacional e internacional. Abenilza Cabeleireiros busca e valoriza as novas tendêcias em matéria de beleza.">
     <meta property="og:url" content="http://www.abenilza.com.br/">
     <meta property="og:image" content="http://www.abenilza.com.br/thumb.gif">

@@ -5,7 +5,6 @@ add_theme_support( 'custom-header' );
 add_theme_support( 'custom-logo' );
 
 class wp_ng_theme {
-
 	function enqueue_scripts() {
 
     wp_enqueue_style( 'bootstrapCSS', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css', array(), '1.0', 'all' );
@@ -14,6 +13,7 @@ class wp_ng_theme {
 		wp_enqueue_script( 'angular-resource', '//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-resource.js', array('angular-core'), '1.0', false );
 		wp_enqueue_script( 'ui-router', '//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js', array( 'angular-core' ), '1.0', false );
 		wp_enqueue_script( 'ngScripts', get_template_directory_uri() . '/assets/javascript/angular-theme.js', array( 'ui-router' ), '1.0', false );
+		//adding global variables
 		wp_localize_script( 'ngScripts', 'appInfo',
 			array(
 				'api_url'			 => rest_get_url_prefix() . '/wp/v2/',
@@ -25,6 +25,7 @@ class wp_ng_theme {
 	}
 }
 
+// creating post type trabalhos
 function create_post_type() {
   register_post_type( 'trabalho',
     array(
