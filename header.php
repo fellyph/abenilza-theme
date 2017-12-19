@@ -20,14 +20,10 @@
       })();</script>
     </head>
     <body>
-    <section id="wrapper" class="hfeed">
+    <section class="container">
         <header class="topo">
-          <h1 class="logo">Abenilza Cabeleireiros</h1>
+          <h1 class="logo"><?php bloginfo('name') ?></h1>
           <nav class="box-menu">
-              <ul class="menu">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servico">Serviços</a></li>
-                <li><a href="#local">Contato</a></li>
-              </ul>
+            <!-- menu -->
           </nav>
         </header><!-- #header -->
