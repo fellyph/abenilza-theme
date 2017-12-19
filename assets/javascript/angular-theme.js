@@ -1,10 +1,12 @@
 var wpApp = new angular.module('wpAngularTheme', ['ui.router', 'ngResource'])
 
 wpApp.factory('Posts', function ($resource) {
-  return $resource(appInfo.api_url + 'posts/:ID', {
+  return $resource(appInfo.api_url + '/trabalhos/:ID', {
     ID: '@id'
   })
 })
+
+console.log(appInfo.api_url + '/trabalhos/:ID')
 
 wpApp.controller('ListCtrl', ['$scope', 'Posts', function ($scope, Posts) {
   console.log('ListCtrl')

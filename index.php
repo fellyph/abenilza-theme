@@ -1,4 +1,3 @@
 <?php get_header(); ?>
-    <div class="content" role="main">
-    
+    <div ui-view></div>
 <?php get_footer(); ?>
