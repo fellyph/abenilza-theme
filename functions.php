@@ -44,7 +44,25 @@ function create_post_type() {
   );
 }
 
+
+function create_api_post_thumb_url() {
+	// register_rest_field ( 'name-of-post-type', 'name-of-field-to-return', array-of-callbacks-and-schema() )
+	register_rest_field( 'trabalho', 'thumbnail_url', array(
+		'get_callback'    => 'get_thumb_url',
+		'schema'          => null,
+		)
+	);
+}
+
+function get_thumb_url( $object ) {
+	//get the id of the post object array
+	$post_id = $object['id'];
+	//return the post meta
+	return get_the_post_thumbnail_url( $post_id );
+}
+
 $ngTheme = new wp_ng_theme();
 
+add_action( 'rest_api_init', 'create_api_post_thumb_url' );
 add_action( 'wp_enqueue_scripts', array( $ngTheme, 'enqueue_scripts' ) );
 add_action( 'init', 'create_post_type' );
