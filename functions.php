@@ -47,11 +47,35 @@ function create_post_type() {
 
 function create_api_post_thumb_url() {
 	// register_rest_field ( 'name-of-post-type', 'name-of-field-to-return', array-of-callbacks-and-schema() )
+	register_rest_field( 'trabalho', 'thumbnail_url_thumb', array(
+		'get_callback'    => 'get_thumb_url_thumb',
+		'schema'          => null,
+		)
+	);
+	register_rest_field( 'trabalho', 'thumbnail_url_medium', array(
+		'get_callback'    => 'get_thumb_url_medium',
+		'schema'          => null,
+		)
+	);
 	register_rest_field( 'trabalho', 'thumbnail_url', array(
 		'get_callback'    => 'get_thumb_url',
 		'schema'          => null,
 		)
 	);
+}
+
+function get_thumb_url_thumb( $object ) {
+	//get the id of the post object array
+	$post_id = $object['id'];
+	//return the post meta
+	return get_the_post_thumbnail_url( $post_id , 'thumbnail');
+}
+
+function get_thumb_url_medium( $object ) {
+	//get the id of the post object array
+	$post_id = $object['id'];
+	//return the post meta
+	return get_the_post_thumbnail_url( $post_id, 'medium' );
 }
 
 function get_thumb_url( $object ) {
