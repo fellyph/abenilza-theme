@@ -1,0 +1,15 @@
+{
+  "name": "abenilza-theme",
+  "version": "1.0.0",
+  "description": "tema desenvolvido para o salao abenilza cabeleireiros",
+  "main": "index.js",
+  "scripts": {
+   "build": "webpack"
+  },
+  "repository": "git@github.com:fellyph/abenilza-theme.git",
+  "author": "fellyph <fellyph.cintra@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  }
+}

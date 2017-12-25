@@ -1,5 +1,6 @@
 <h1>{{page_title}}</h1>
-<article ng-repeat="trabalho in trabalhos">
-  <h2><a ui-sref="detail({id: trabalho.id})">{{trabalho.title.rendered}}</a></h2>
-  <img ng-src="{{trabalho.thumbnail_url_thumb}}" />
-</article>
+<section class="trabalhos">
+  <article ng-repeat="trabalho in trabalhos" class="trabalho">
+    <a ui-sref="detail({id: trabalho.id})"></a><img ng-src="{{trabalho.thumbnail_url_medium}}" /></a>
+  </article>
+</section>
