@@ -1,11 +1,8 @@
 import 'bootstrap'
-
-import angular from 'angular'
-import uirouter from 'angular-ui-router'
-
 import routing from './app.config'
+import home from './features/home'
 
-let wpApp = new angular.module('wpAngularTheme', [uirouter])
+const wpApp = new angular.module('wpAngularTheme', [home])
               .config(routing)
 
 /*
